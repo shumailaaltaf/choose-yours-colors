@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scroll website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script> 
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar--container">
+            <a href="#home" id="navbar--logo">color</a>
+
+            <div class="navbar--toggle" id="mobile--menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar--menu">
+                <li class="navbar--item">
+                    <a href="#home" class="navbar--links" id="home--page">home</a>
+                </li>
+                <li class="navbar--item">
+                    <a href="#about" class="navbar--links" id="about">about</a>
+                </li>
+                <li class="navbar--item">
+                    <a href="#services" class="navbar--links" id="services">services</a>
+                </li>
+                <li class="navbar--btn">
+                    <a href="#sign-up" class="button" id="signup">sign-up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="hero" id="home">
+        <div class="hero--container">
+            <h1 class="hero--heading">Choose your <span>Colors</span></h1>
+            <p class="hero--discription">Unlimited Possibilites</p>
+            <button class="main--btn"> <a href="a">Explore</a></button>
+        </div>
+    </div>
+    <div class="main" id="about">
+        <div class="main--container">
+            <div class="main-img-container">
+                <div class="main--img--card"><i class="bi bi-stack stack-icon"></i></div>
+            </div>
+            <div class="main--content">
+                <h1>what do we do?</h1>
+                <h2>we help into business</h2>
+                <p>schedule a call to lern more about our </p>
+                <button class="main-button">schedule call</button>
+            </div>
+        </div>
+    </div>
+    <div class="services" id="services">
+        <h1>our services</h1>
+        <div class="services--wrapper">
+            <div class="services--card">
+                <h2>custom colorways</h2>
+                <p> AI powered technology</p>
+                <div class="services__btn"><button>Get started</button></div>
+            </div>
+            <div class="services--card">
+                <h2> Are you Ready</h2>
+                <p> Take a lepa</p>
+                <div class="services--btn"><button>get started</button></div>
+            </div>
+            <div class="services--card">
+                <h2>Full Gradients</h2>
+                <p> 100 Combination</p>
+                <div class="services--btn"><button>get started</button></div>
+            </div>
+            <div class="services--card">
+                <h2> inginite Choices</h2>
+                <p> 1000 of Colors</p>
+                <div class="services--btn"><button>get started</button></div>
+            </div>
+        </div>
+    </div>
+    <div class="main" id="sign-up">
+        <div class="main--container">
+            <div class="main--content">
+                <h1>Join Our Team</h1>
+                <h2>sign-up To Day</h2>
+                <p>See what makes us different</p>
+                <button class="main--btn"><a href="#">sign up</a></button>
+            </div>
+            <div class="main-img-container">
+                <div class="main--img--card" id="card-2"><i class="fa fa-users user-icon"></i></div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="footer--container">
+            <div class="footer--links">
+                <div class="footer--links--wrapper">
+                    <div class="footer--links--items d-flex">
+                        <h2>About Us</h2>
+                        <a style="color: white;" href="/sign-up">How it works</a>
+                        <a style="color: white;" href="/sign-up">Testimonials</a>
+                        <a style="color: white;" href="/sign-up">Careers</a>
+                        <a style="color: white;" href="/sign-up">Term of services</a>
+                    </div>   
+                    <div class="footer--links--items">
+                        <h2>Contect Us</h2>
+                        <a style="color: white;" href="/sign-up">How it works</a>
+                        <a  style="color: white;" href="/sign-up">Test imonials</a>
+                        <a  style="color: white;" href="/sign-up">Careers</a>
+                        <a  style="color: white;"href="/sign-up">Term of services</a>
+                    </div>  
+                </div>
+                <div class="footer-links--wrapper">
+                    <div class="footer--links--items">
+                        <h2>Videos</h2>
+                        <a  style="color: white;" href="/">Submit Videos</a>
+                       <a  style="color: white;" href="/">Ambasssdors</a>
+                        <a  style="color: white;" href="/">Agency</a>
+                </div>
+                    <div class="footer--links--items">
+                        <h2 class="mt-4">Social Medio</h2>
+                        <a  style="color: white;" href="/">Twitter</a>
+                        <a  style="color: white;" href="/">Youtbe </a>
+                        <a  style="color: white;" href="/">Instagram </a>
+                        <a  style="color: white;" href="/">Facebook</a> 
+                    </div>   
+                    </div>
+                </div>
+                <section class="social--media" target="_blank">
+                    <div class="social--media--wrap">
+                    <div class="footer-logo">
+                        <a href="/" id="footer--logo">color</a>
+                    </div>
+                    <p class="website--rights"> &copy;color 2022. All right reserved</p>
+                    <div class="social--icon">
+                    <a href="/" class="social--icon--links" target="-blank">
+                        <i class="bi bi-facebook"></i></i></a>
+                        <a href="/" class="social--icon--links">
+                            <i class="bi bi-instagram"></i></a>
+                            <a href="/" class="social--icon--links">
+                                <i class="bi bi-twitter"></i></a>
+                                <a href="/" class="social--icon--links">
+                            <i class="fa fa-youtube-play"></i></a>
+                <a href="/" class="social--icon--links">
+                    <i class="bi bi-linkedin"></i></a>
+                </div>
+                </div>
+            </section>
+            </div>
+            <script src="app.js"></script>                              
+</body>
+</html>
